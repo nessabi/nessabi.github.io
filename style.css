@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'poppins';
+}
+
+body{
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(20, 117, 214, 0.815);
+    align-items: center;
+    width: 100%;
+    position: fixed;
+
+} 
+
+nav .right-side{
+    display: flex;
+}
+
+nav .left-side a h1{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav .right-side .nav-link-wrapper a{
+    display: block;
+    color: white;
+    padding: 2px 15px;
+    font-size: 18px;
+}
+
+/* Home */
+
+.container-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(176, 209, 244, 0.815);
+    padding: 50px 0 25px 0;
+}
+
+.container-home img{
+    width: 200px;
+    border-radius: 50%;
+    border: 3px white solid;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+.container-home h1{
+    font-size: 30px;
+    margin-top: 10px;
+    /* color: antiquewhite; */
+}
+
+.container-home p{
+    font-size: 18px;
+}
+
+/* About */
+
+.container-about {
+    display: flex;
+    padding: 25px 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr.split{
+    width: 150px;
+    height: 3px;
+    background: #000;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.container-about .text{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 20px 0;
+
+}
+
+
+.container-about .text p{
+    width: 40%;
+    margin: 0 40px;
+    font-size: 15px;
+}
+
+/* Projects */
+
+.container-projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eaeaea;
+    padding: 25px 0;
+}
+
+.container-projects .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container-projects .card{
+    width: 250px;
+    margin: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 0 0 5px 0;
+    border-radius: 5px;
+    
+}
+
+.container-projects .card img{
+    border-radius: 5px;
+    width: 100%;
+}
+
+.container-projects .card p{
+    color: black;
+    padding: 10px;
+
+}
+
+/* Contact */
+.container-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.container-contact form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: ce; */
+
+}
+
+.container-contact form label{
+    margin-top: 10px;
+}
+.container-contact form input{
+    width: 100%;
+    padding: 5px 10px;
+
+}
+ 
+
+.container-contact form texarea{
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.container-contact form button{
+    width: 70px;
+    margin-top: 10px;
+    background-color: #3a3434;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    width: 100%;
+    background-color: rgba(20, 117, 214, 0.815);
+    justify-content: center;
+    /* align-items: center; */
+}
+
+footer p{
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+}
+
